@@ -8,7 +8,7 @@ const colors = [
 ];
 
 
-const CHANHE_DELAY = 1000;
+const CHANGE_DELAY = 1000;
 let intervalId = null;
 
 const refs = {
@@ -25,7 +25,7 @@ function onStartBtnClick () {
   refs.startBtn.disabled = true;
   intervalId = setInterval(() => {
     changeBodyColor ()
-  }, CHANHE_DELAY);
+  }, CHANGE_DELAY);
 
 };
 
